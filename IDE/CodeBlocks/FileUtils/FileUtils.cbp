@@ -87,8 +87,9 @@
 					<Add directory="../../../Source/Collections" />
 				</ResourceCompiler>
 				<Linker>
-					<Add library="../lib/libBasicTypesD.a" />
-					<Add library="../lib/libCollectionsD.a" />
+					<Add library="BasicTypesD" />
+					<Add library="CollectionsD" />
+					<Add directory="../lib" />
 				</Linker>
 			</Target>
 			<Target title="Release-Linux">
